@@ -1,0 +1,56 @@
+body{
+  background:#E8B4CB; /* Dusty Pink */
+  font-family:Arial,sans-serif;
+  font-weight:bold;
+  text-align:center;
+  margin:0;
+  padding:20px;
+}
+
+#app{
+  max-width:800px;
+  margin:auto;
+  background:rgba(255,255,255,0.15);
+  padding:25px;
+  border-radius:20px;
+}
+
+button{
+  background:#FF69B4; /* Hot Pink */
+  color:white;
+  font-weight:bold;
+  border:none;
+  border-radius:15px;
+  padding:15px;
+  margin:8px;
+  width:90%;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  background:#E75480;
+  transform:scale(1.02);
+}
+
+h1{
+  color:#E75480;
+  background:white;
+  padding:15px;
+  border-radius:20px;
+  display:inline-block;
+  box-shadow:0 4px 15px rgba(0,0,0,.15);
+}
+
+h2,h3,p{
+  color:white;
+  font-weight:bold;
+}
+
+body{
+  background:#E8B4CB;
+  background-image:
+  radial-gradient(#fff5e1 2px, transparent 2px);
+  background-size:30px 30px;
+}
